@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos y métodos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="containerPpal">
+    <h1>Todo List</h1>
+    <hr>
+    
+    <div>
+      <h3>Nueva tarea</h3>
+      <div class="areaIngreso">
+        <input type="text" id="nuevaTarea" maxlength="40">
+        <button class="btn-agregar" onclick="agregarTarea()">Agregar</button>
+        <p id="txtAlert"></p>        
+      </div> 
+    </div>
+
+    <div class="containerDatos">
+      <div class="cantidades">
+        <h3>Cantidades</h3>
+        <h4 id="total"></h4>
+        <h4 id="realizadas"></h4>
+      </div>
+      <div class="grilla">
+        <div class="titulos">
+          <h4>ID</h4>
+          <h4>TAREA</h4>
+        </div>
+        <div id="tareas">
+        </div>
+      </div>
+  </div>
+
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

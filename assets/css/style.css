@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerPpal {
+    width: 800px;
+    background-color: #ececec;
+    margin: 50px;
+    padding: 20px;
+}
+
+.btn-agregar {
+    background-color: #1a7742;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+#txtAlert {
+    padding-left: 40px;
+}
+
+.containerDatos {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+#nuevaTarea {
+    width: 265px;
+    height: 25px;
+}
+
+.areaIngreso {
+    display: flex;
+}
+
+.titulos {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.cantidades {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 50px;
+    gap: 8px;
+}
+
+.lineaTarea {
+    display: flex;
+    width: 500px;
+}
+
+.btn-elimina {
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+
+.idTarea {
+    width: 5%;
+    text-align: center;
+}
+
+.nombreTarea {
+    width: 85%;
+}
+
+.statusTarea {
+    width: 5%;
+}
+
+.accionTarea {
+    width: 5%;
+}
